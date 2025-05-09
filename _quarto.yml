@@ -1,0 +1,20 @@
+project:
+  type: book
+  output-dir: docs
+
+website:
+  site-url: https://github.com/Fpadt/gh_pages_test
+  
+book:
+  title: "My Minimal Quarto Book"
+  author: "Your Name"
+  date: "2025-05-09"
+  chapters:
+    - index.qmd
+    - chapter1.qmd
+    - chapter2.qmd
+    - references.qmd
+
+format:
+  html:
+    theme: cosmo

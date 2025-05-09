@@ -1,0 +1,16 @@
+# Second Chapter
+
+This is the second chapter of our book.
+
+## Including Images
+
+You can include images:
+
+![Example image](https://example.com/image.jpg)
+
+## Including Tables
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| A        | B        | C        |
+| D        | E        | F        |

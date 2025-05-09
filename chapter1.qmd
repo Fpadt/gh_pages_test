@@ -1,0 +1,16 @@
+# First Chapter
+
+This is the first chapter of our book.
+
+## A Section
+
+Here's some content in a section.
+
+``` r
+# A code example
+print("Hello, Quarto!")
+```
+
+## Another Section
+
+More content here.

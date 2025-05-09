@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Minimal Quarto Book",
+    "section": "",
+    "text": "Preface\nThis is a minimal Quarto book example for GitHub Pages.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "My Minimal Quarto Book",
+    "section": "Overview",
+    "text": "Overview\nThis book demonstrates how to set up a simple Quarto book that can be published on GitHub Pages.\nIn this book, you will find:\n\nBasic Quarto book structure\nHow to configure your book\nHow to publish to GitHub Pages",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "1  First Chapter",
+    "section": "",
+    "text": "1.1 A Section\nThis is the first chapter of our book.\nHere’s some content in a section.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>First Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#a-section",
+    "href": "chapter1.html#a-section",
+    "title": "1  First Chapter",
+    "section": "",
+    "text": "# A code example\nprint(\"Hello, Quarto!\")",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>First Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#another-section",
+    "href": "chapter1.html#another-section",
+    "title": "1  First Chapter",
+    "section": "1.2 Another Section",
+    "text": "1.2 Another Section\nMore content here.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>First Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html",
+    "href": "chapter2.html",
+    "title": "2  Second Chapter",
+    "section": "",
+    "text": "2.1 Including Images\nThis is the second chapter of our book.\nYou can include images:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Second Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#including-images",
+    "href": "chapter2.html#including-images",
+    "title": "2  Second Chapter",
+    "section": "",
+    "text": "Example image",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Second Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#including-tables",
+    "href": "chapter2.html#including-tables",
+    "title": "2  Second Chapter",
+    "section": "2.2 Including Tables",
+    "text": "2.2 Including Tables\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nA\nB\nC\n\n\nD\nE\nF",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Second Chapter</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Here you can include your references or bibliography.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
