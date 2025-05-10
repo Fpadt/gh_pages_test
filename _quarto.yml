@@ -4,6 +4,7 @@ project:
 
 website:
   site-url: https://github.com/Fpadt/gh_pages_test
+  favicon: images/favicon.png
 
 date:        last-modified
 date-format: long
