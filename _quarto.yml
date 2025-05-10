@@ -101,12 +101,15 @@ book:
         - nb/18_references_rev.qmd
         - nb/19_resources_rev.qmd          
         
-  # chapters:
-  #   - index.qmd
-  #   - chapter1.qmd
-  #   - chapter2.qmd
-  #   - references.qmd
-
+resources:
+  - notebooks/01_business_understanding.qmd  
+  - notebooks/02_data_understanding.qmd
+  - notebooks.zip
+  - audio/pythia_history.mp3
+  - video/whitebox.mp4
+  - video/blackbox.mp4
+  - pptx/PAF_s03.pptx
+  
 format:
   html:
     title-block-banner: true
