@@ -62,7 +62,7 @@ execute:
 editor: source
 
 book:
-  title: "My Minimal Quarto Book"
+  title: "Pythias Advice"
   repo-url: https://github.com/Fpadt/gh_pages_test
   repo-actions: [source, issue]
   downloads: [pdf] 

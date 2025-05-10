@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My Minimal Quarto Book",
+    "title": "Pythias Advice",
     "section": "",
     "text": "Acknowledgments\ndef 7.19\ndef 7.3\nFrom Prophecy to Prediction: The Myth Inspiring Pythia’s Advice\nThe Pythia’s Advice project is dedicated to the art of sales forecasting. Drawing inspiration from the ancient myth of the Oracle of Delphi, where the Pythia—the high priestess—delivered cryptic prophecies, we harness the power of Data Science—our modern-day Pythia—to foresee future trends. Just as the Pythia’s prophecies required careful interpretation, our statistical and machine learning techniques produce Advice that requires human expertise for effective application. By embodying this union of technology and human insight, we aptly named our project Pythia’s Advice. This synergy ensures well-informed, data-driven decision-making and enhances the operational efficiency of the supply chain.\nAccording to ancient myth, the Pythia inhaled vapors emanating from the remnants of the Python slain by Apollo—the Olympian god of the sun, music, and prophecy. These vapors induced a trance-like state that allowed her to channel his prophetic insights, revealing future events. Similarly, our project ‘inhales’ vast amounts of data—our ‘Python’s Vapors’—which, when processed with complex algorithms, enable us to decipher hidden patterns and unveil valuable foresight. However, these predictive insights must be carefully interpreted to avoid missteps—much like when King Croesus misread the Pythia’s prophecy that ‘a great empire will fall.’ He waged war and, in doing so, opened Pandora’s Box—leading to the downfall of his own great empire—the Kingdom of Lydia.\nFurthermore, Pythia’s Advice emphasizes the crucial bond between humans and nature. By focusing on the sales forecast of food for biodiversity—products that support ecological diversity—we aim to benefit human health and promote planetary well-being. This harmonious relationship mirrors the Pythia’s sacred connection with the divine, symbolizing a balance between technological capabilities and the natural world.\nOur logo, featuring a tree integrated with the Pythia through conductive traces against an enlightening sunset that symbolizes guidance and inspiration, beautifully encapsulates this synergy. This imagery symbolizes the fusion of natural wisdom and technological innovation. It reminds us that while we rely on cutting-edge technology to predict the future, our roots remain deeply intertwined with nature.\nThrough Pythia’s Advice, we honor the legacy of the Oracle of Delphi, blending ancient wisdom with modern technology to illuminate the path forward.\nI am grateful for the insightful comments offered by Ieke le Blanc. These have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.",
     "crumbs": [
@@ -13,7 +13,7 @@
   {
     "objectID": "index.html#methodology",
     "href": "index.html#methodology",
-    "title": "My Minimal Quarto Book",
+    "title": "Pythias Advice",
     "section": "1.1 Methodology",
     "text": "1.1 Methodology\nThis research follows the CRISP-ML methodology, (Costa, 2022) as the guiding framework.\nCRISP-ML is an acronym for “Cross-Industry Standard Process for Machine Learning.” It is a systematic framework for organizing and executing machine learning projects. The methodology includes six key steps:\n\nunderstanding the problem\npreparing the data\nselecting and tuning models\nevaluating performance\ndeploying the solution\nmonitoring and maintaining the model.\n\nThis thesis focuses on the first 4 steps, the results will be taken as advice to be implemented in the current way of working.",
     "crumbs": [
@@ -24,7 +24,7 @@
   {
     "objectID": "index.html#terminology",
     "href": "index.html#terminology",
-    "title": "My Minimal Quarto Book",
+    "title": "Pythias Advice",
     "section": "Terminology",
     "text": "Terminology\n\ndef 7.1 BBD:\nBest Before Date\n\n\ndef 7.2 GSL:\nGuaranteed Shelf Life\n\n\ndef 7.3 OOD:\nOut of Date\n\n\ndef 7.4 OOS:\nOut of Stock\n\n\ndef 7.5 SKU:\nStock Keeping Unit",
     "crumbs": [
@@ -35,7 +35,7 @@
   {
     "objectID": "index.html#entities",
     "href": "index.html#entities",
-    "title": "My Minimal Quarto Book",
+    "title": "Pythias Advice",
     "section": "Entities",
     "text": "Entities\n\ndef 7.6 MSO:\nMarketing & Sales Organization\n\n\ndef 7.7 HFS:\nHealth Food Store\n\n\ndef 7.8 OOH:\nOut of Home",
     "crumbs": [
