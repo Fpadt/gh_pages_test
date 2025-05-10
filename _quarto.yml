@@ -4,7 +4,6 @@ project:
 
 website:
   site-url: https://github.com/Fpadt/gh_pages_test
-  favicon: images/favicon.png
 
 date:        last-modified
 date-format: long
@@ -64,6 +63,7 @@ editor: source
 
 book:
   title: "Pythia's Advice"
+  favicon: images/favicon.ico  
   repo-url: https://github.com/Fpadt/gh_pages_test
   repo-actions: [source, issue]
   downloads: [pdf] 
