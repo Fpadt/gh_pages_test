@@ -4,11 +4,52 @@ project:
 
 website:
   site-url: https://github.com/Fpadt/gh_pages_test
+
+date:        last-modified
+date-format: long
+
+authors:
+  - name:    Floris Padt
+    orcid:   0009-0006-4729-1783
+    corresponding: true
+    email: floris@smart-r.nl
+    url: https://www.linkedin.com/in/florispadt    
+    roles:
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Investigation
+      - Methodology
+      - Software
+      - Validation
+      - Visualization
+      - Writing     
+    degrees: 
+      - MSc.
+    affiliations: 
+      - name:         EAISI - Technical University Eindhoven
+        city:         Eindhoven
+        country:      The Netherlands
+        department:   EAISI Academy
+        group:        Professional education
+        url:          https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai
+  - name:   Ieke Le Blanc
+    url: https://www.tue.nl/en/education/professional-education/current-programs/eaisi-academy/lecturers/dr-ieke-le-blanc
+    roles:
+      - Supervisor
+      - Mentor     
+    degrees: 
+      - Dr.
+    affiliations: 
+      - name:         EAISI - Technical University Eindhoven
+        city:         Eindhoven
+        country:      The Netherlands
+        department:   EAISI Academy
+        group:        Professional education
+        url:          https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai 
   
 book:
   title: "My Minimal Quarto Book"
-  author: "Your Name"
-  date: "2025-05-09"
   chapters:
     - index.qmd
     - chapter1.qmd
