@@ -62,7 +62,7 @@ execute:
 editor: source
 
 book:
-  title: "Pythia`s Advice"
+  title: "Pythia's Advice"
   repo-url: https://github.com/Fpadt/gh_pages_test
   repo-actions: [source, issue]
   downloads: [pdf] 
