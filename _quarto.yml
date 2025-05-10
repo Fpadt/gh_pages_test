@@ -86,6 +86,20 @@ book:
         - nb/04_modelling_rev.qmd
         - nb/05_evaluation_rev.qmd
         - nb/06_deployment_rev.qmd
+    - part: "Conclusions & Next Steps"
+      chapters:
+      - notebooks/07_conclusions.qmd
+    - part: "Appendix"
+      chapters:
+        - nb/08_appendix_rev.qmd
+        # - nb/12_data_understanding_rev.qmd
+        # - nb/13_data_preparation_rev.qmd
+        # - nb/14_modelling_rev.qmd
+        # - nb/15_evaluation_rev.qmd        
+        - nb/16_flow_down_rev.qmd
+        - nb/17_crisp-dm_rev.qmd
+        - nb/18_references_rev.qmd
+        - nb/19_resources_rev.qmd          
         
   # chapters:
   #   - index.qmd
@@ -95,21 +109,6 @@ book:
 
 format:
   html:
-    # base-href: "/EAISI-Paper/"
-    # include-in-header:
-    #   text: |
-    #     <base href="/EAISI-Paper/">
-    # include-before-body:
-    #   text: |
-    #     <script>
-    #       // Ensure base tag exists
-    #       if (!document.querySelector('base')) {
-    #         var base = document.createElement('base');
-    #         base.href = '/EAISI-Paper/';
-    #         document.head.prepend(base);
-    #       }
-    #     </script>
-    # Banner configuration
     title-block-banner: true
     title-block-style: default
     # Custom banner color

@@ -196,5 +196,170 @@
       "Project Phases",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Deployment</span>"
     ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html",
+    "href": "nb/08_appendix_rev.html",
+    "title": "8  Other",
+    "section": "",
+    "text": "other",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#sec-literature_review",
+    "href": "nb/08_appendix_rev.html#sec-literature_review",
+    "title": "8  Other",
+    "section": "8.1 Literature",
+    "text": "8.1 Literature\nThe literature review focuses on the intersection of three fields, according to the now-ubiquitous Data Science Venn Diagram of Drew Conway.",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#business-process",
+    "href": "nb/08_appendix_rev.html#business-process",
+    "title": "8  Other",
+    "section": "8.2 Business Process",
+    "text": "8.2 Business Process\n\nSCOR MODEL A COMPLETE GUIDE - 2020 EDITION, [@blokdyk_scor_2019]\nInventory and production management in supply chains, [@silver_inventory_2021]",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#math-statistics",
+    "href": "nb/08_appendix_rev.html#math-statistics",
+    "title": "8  Other",
+    "section": "8.3 Math & Statistics",
+    "text": "8.3 Math & Statistics\n\nForecasting: Principles and Practice (3rd ed), [@hyndman_forecasting_2021]\nDemand forecasting best practices, [@vandeput_demand_2023]\nData science for supply chain forecasting, [@vandeput_data_2021]\nInventory optimization: models and simulations, [@vandeput_inventory_2020]\nMachine Learning With Boosting: A Beginner’s Guide, [@hartshorn_machine_2017]\nIntroduction to conformal prediction with Python, [@molnar_introduction_2023]\nPractical guide to applied conformal prediction in Python, [@manokhin_practical_2023]\nSHAP with Python, [@osullivan_shap_2024]\nIntroduction to SHAP with Python, [@osullivan_introduction_2023]\nEnsemble methods for machine learning, [@kunapuli_ensemble_2023]",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#programming",
+    "href": "nb/08_appendix_rev.html#programming",
+    "title": "8  Other",
+    "section": "8.4 Programming",
+    "text": "8.4 Programming\n\n8.4.1 Python\n\nPython Crash Course, [@matthes2019]\nLightning fast forecasting with statistical and econometric models, [@nixtla/s2024]\nScalable Machine Learning for Time Series Forecasting, [@nixtla/m2024]\nProbabilistic hierarchical forecasting with statistical and econometric methods, [@nixtla/h]\nTS Features, calculates various features from time series data, [@nixtla/t2024]\n\n\n\n8.4.2 R\n\nR for Data Science, [@wickham]\nR forecasting package, [@hyndmanaut2024]\nR feasts package, [@ohara-wild2024a]\nR fable package, [@ohara-wild2024]",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#sec-forecast-use-cases",
+    "href": "nb/08_appendix_rev.html#sec-forecast-use-cases",
+    "title": "8  Other",
+    "section": "8.5 Forecast Use Cases",
+    "text": "8.5 Forecast Use Cases\n\n\n\n\n\n\n\nForecast Use Cases",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#sec-project-charter",
+    "href": "nb/08_appendix_rev.html#sec-project-charter",
+    "title": "8  Other",
+    "section": "8.6 Project Charter",
+    "text": "8.6 Project Charter\n\n\n\n\n\n\n\nProject Charter",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#sec-project-plan",
+    "href": "nb/08_appendix_rev.html#sec-project-plan",
+    "title": "8  Other",
+    "section": "8.7 Project Plan",
+    "text": "8.7 Project Plan\n\n\n\n\n\n\n\nProject Plan\n\n\n\n\n\n\n\n\n\n\nProject Plan",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/08_appendix_rev.html#sec-eaisi",
+    "href": "nb/08_appendix_rev.html#sec-eaisi",
+    "title": "8  Other",
+    "section": "8.8 EAISI",
+    "text": "8.8 EAISI\n\n8.8.1 Deliverables & requirements\n\nClear description of the need / problem / opportunity\nClear description of the long-term ambition\nClear focus on what part of this long-term ambition will be taken on in the project\nDescription of the data science project with the help of a flowdown chart and project charter\nClear description of how the model outcome / analysis results will be used (e.g. who, at what time, in which process, in what way, will use the model outcome / analysis results to make a better decision about what?) and how this translates into improved KPIs as outlined in the flowdown chart\nSubstantiated choice for a ‘performance metric’ (i.e. what should the model be good at)\nClear description of a business case / cost-benefit (no cost!!) analysis\nRealistic plan / timeline for how to execute the consecutive CRISP-DM phases",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other</span>"
+    ]
+  },
+  {
+    "objectID": "nb/16_flow_down_rev.html",
+    "href": "nb/16_flow_down_rev.html",
+    "title": "9  Flow Down",
+    "section": "",
+    "text": "9.1 Flow-down",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Flow Down</span>"
+    ]
+  },
+  {
+    "objectID": "nb/16_flow_down_rev.html#sec-flowdown",
+    "href": "nb/16_flow_down_rev.html#sec-flowdown",
+    "title": "9  Flow Down",
+    "section": "",
+    "text": "Flowdown Graph",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Flow Down</span>"
+    ]
+  },
+  {
+    "objectID": "nb/17_crisp-dm_rev.html",
+    "href": "nb/17_crisp-dm_rev.html",
+    "title": "10  CRISP-DM",
+    "section": "",
+    "text": "10.1 CRISP-DM",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>CRISP-DM</span>"
+    ]
+  },
+  {
+    "objectID": "nb/17_crisp-dm_rev.html#sec-crisp-dm",
+    "href": "nb/17_crisp-dm_rev.html#sec-crisp-dm",
+    "title": "10  CRISP-DM",
+    "section": "",
+    "text": "Project Plan",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>CRISP-DM</span>"
+    ]
+  },
+  {
+    "objectID": "nb/18_references_rev.html",
+    "href": "nb/18_references_rev.html",
+    "title": "11  References",
+    "section": "",
+    "text": "References\n\n\nBarrett, T, Dowle,\nM, Srinivasan, A,\nGorecki, J, Chirico,\nM, Hocking, T,\nSchwendinger, B,\nStetsenko, P, Short,\nT, Lianoglou, S,\nAntonyan, E, Bonsch,\nM, Parsonage, H,\nRitchie, S, Ren,\nK, Tan, X,\nSaporta, R, Seiskari,\nO, Dong, X,\nLang, M, Iwasaki,\nW, Wenchel, S,\nBroman, K, Schmidt,\nT, Arenburg, D,\nSmith, E, Cocquemas,\nF, Gomez, M,\nChataignon, P,\nBlaser, N, Selivanov,\nD, Riabushenko, A,\nLee, C, Groves,\nD, Possenriede, D,\nParages, F, Toth,\nD, Yaramaz-David, M,\nPerumal, A, Sams,\nJ, Morgan, M,\nQuinn, M, @javrucebo,\n@marc-outins, Storey,\nR, Saraswat, M,\nJacob, M, Schubmehl,\nM, Vaughan, D,\nSilvestri, L, Hester,\nJ, Damico, A,\nFreundt, S, Simons,\nD, Andrade, E S de,\nMiller, C, Meldgaard,\nJ P, Tlapak, V,\nUshey, K,\nEddelbuettel, D,\nFischetti, T, Shilon,\nO, Khotilovich, V,\nWickham, H, Becker,\nB, Haynes, K,\nKamgang, B C,\nDelmarcell, O,\nO’Brien, J, Mezquita,\nD de, Czekanski, M,\nShemetov, D, Jha,\nN, Wu, J,\nGiné-Vázquez, I,\nChetia, A,\nAmoakohene, D, and\nKrylov, I 2024 Data.table:\nExtension of ’data.frame’. Available at https://cran.r-project.org/web/packages/data.table/index.html\n[Last accessed 13 October 2024].\n\n\nBLOKDYK, G 2019 SCOR\nMODEL A COMPLETE\nGUIDE - 2020 EDITION. [S.l.]: 5STARCOOKS.\n\n\nCore Team}, {R 2024 R: A\nLanguage and Environment for\nStatistical Computing. Available at https://www.R-project.org/\n\n\nCosta, R 2022 The\nCRISP-ML Methodology:\nA Step-by-Step\nApproach to Real-World\nMachine Learning Projects.\nIndependently published.\n\n\nDeBruine, L 2023 Glossary:\nGlossaries for Markdown and\nQuarto Documents. Available at https://cran.r-project.org/web/packages/glossary/\n[Last accessed 13 October 2024].\n\n\nGuja, A and Siwiak,\nM 2025 Generative AI for\nData Analytics. Manning Publications Co.\nLLC 2025.\n\n\nHartshorn, S 2017 Machine\nLearning With Boosting:\nA Beginner’s Guide.\n\n\nHyndman [aut, R, cre,\ncph, Athanasopoulos,\nG, Bergmeir, C,\nCaceres, G, Chhay,\nL, Kuroptev, K,\nO’Hara-Wild, M,\nPetropoulos, F,\nRazbash, S, Wang,\nE, Yasmeen, F,\nGarza, F,\nGirolimetto, D,\nIhaka, R, R Core\nTeam, Reid, D,\nShaub, D, Tang,\nY, Wang, X, and\nZhou, Z 2024a Forecast:\nForecasting functions for time series and linear models. Available\nat https://cran.r-project.org/web/packages/forecast/index.html\n\n\nHyndman [aut, R, cre,\ncph, Athanasopoulos,\nG, O’Hara-Wild, M,\nPalihawadana, N,\nWickramasuriya, S, and\nRStudio 2024b fpp3: Data for\n\"Forecasting: Principles and\nPractice\" (3rd Edition). Available at https://cran.r-project.org/web/packages/fpp3/index.html\n[Last accessed 13 October 2024].\n\n\nHyndman, R J and\nAthanasopoulos, G 2021\nForecasting: Principles and Practice (3rd\ned). Available at https://otexts.com/fpp3/ [Last\naccessed 5 October 2024].\n\n\nKunapuli, G 2023 Ensemble methods\nfor machine learning. Shelter Island, NY: Manning.\n\n\nManokhin, V 2023 Practical guide\nto applied conformal prediction in Python: Learn and apply\nthe best uncertainty frameworks to your industry applications.\nBirmingham Mumbai: &lt;packt&gt;.\n\n\nMatthes, E 2019b Python crash\ncourse: A hands-on, project-based introduction to programming. 2nd\nedition. San Francisco, CA: No Starch Press.\n\n\nMatthes, E 2019a Python crash\ncourse: A hands-on, project-based introduction to programming. 2nd\nedition. San Francisco, CA: No Starch Press.\n\n\nMolnar, C 2023 Introduction to\nconformal prediction with Python: A short guide for\nquantifying uncertainty of machine learning models. First edition.\nMünchen, Germany: Chistoph Molnar c/o MUCBOOK, Heidi Seibold. Available\nat https://christophmolnar.com/books/conformal-prediction/\n\n\nNixtla/hierarchicalforecast: Probabilistic hierarchical forecasting 👑\nwith statistical and econometric methods. n.d. Available at https://github.com/Nixtla/hierarchicalforecast\n\n\nNixtla/mlforecast 2024. Nixtla. Available at https://github.com/Nixtla/mlforecast\n\n\nNixtla/statsforecast 2024. Nixtla. Available at https://github.com/Nixtla/statsforecast\n\n\nNixtla/tsfeatures 2024. Nixtla. Available at https://github.com/Nixtla/tsfeatures\n\n\nO’Hara-Wild, M,\nHyndman, R, Wang,\nE, Cook, D,\nfeatures), T T (Correlation, and\nmethod), L C (Guerrero’s 2024a\nFeasts: Feature extraction and statistics for time series.\nAvailable at https://cran.r-project.org/web/packages/feasts/index.html\n\n\nO’Hara-Wild, M,\nHyndman, R, Wang,\nE, implementation), G C\n(NNETAR, Bergmeir, C,\nHensel, T-G, and\nHyndman, T 2024b Fable:\nForecasting models for tidy time series. Available at https://cran.r-project.org/web/packages/fable/index.html\n\n\nO’Sullivan, C 2024 SHAP\nwith Python. SHAP with Python. Available at https://adataodyssey.com/course/\n\n\nO’Sullivan, C 2023 Introduction to\nSHAP with Python. Introduction to SHAP\nwith Python. Available at https://towardsdatascience.com/introduction-to-shap-with-python-d27edc23c454\n\n\nPorter, L and\nZingaro, D 2024 Learn\nAI-assisted Python programming: With\nGitHub Copilot and ChatGPT.\nShelter Island, NY: Manning.\n\n\nSilver, E A, Pyke,\nD F, and Thomas, D J\n2021 Inventory and production management in supply chains.\nFourth edition, first issued in paperback. Boca Raton, FL London New\nYork, NY: CRC Press, Taylor & Francis Group.\n\n\nVandeput, N 2023 Demand\nforecasting best practices. Shelter Island, NY: Manning\nPublications Co.\n\n\nVandeput, N 2021 Data science for\nsupply chain forecasting. Second edition. Berlin ; Boston: De\nGruyter.\n\n\nVandeput, N 2020 Inventory\noptimization: Models and simulations. Berlin ; Boston: De Gruyter.\n\n\nWickham, H n.d. R for data science\n(2e). Available at https://r4ds.hadley.nz/\n\n\nWickham, H, Chang,\nW, Henry, L,\nPedersen, T L,\nTakahashi, K, Wilke,\nC, Woo, K,\nYutani, H,\nDunnington, D, Brand,\nT van den, Posit, and\nPBC 2024 ggplot2: Create\nElegant Data Visualisations\nUsing the Grammar of Graphics.\nAvailable at https://cran.r-project.org/web/packages/ggplot2/index.html\n[Last accessed 13 October 2024].",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "nb/19_resources_rev.html",
+    "href": "nb/19_resources_rev.html",
+    "title": "12  Resources",
+    "section": "",
+    "text": "Resources\n\nDownload the Business Understanding notebook (QMD) 💾\nDownload the Data Understanding notebook (QMD) 💾\nDownload EAISI Graduation Presentation (PPTX) 💾\nDownload all notebooks (ZIP) 💾",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Resources</span>"
+    ]
   }
 ]
