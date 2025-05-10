@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.27">
@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-05-10">
+<meta name="description" content="Effective business planning relies heavily on consistent and accurate forecasts across various levels of aggregation, granularity, and time horizons. Generating multiple forecasts for different use cases not only incurs costs that should be justified by the benefits but also introduces the risk of inconsistencies between forecasts. Ideally, a single detailed forecast with a long horizon can be created and then aggregated to meet all business needs, maintaining consistency but potentially sacrificing forecast accuracy This raises the question of which approach delivers the highest net benefit.To create an internal benchmark and understand the cost-benefit relationship without disrupting normal business operations, we built a separate forecasting lab environment in parallel to our production forecasting system, leveraging state-of-the-art open-source software available free of charge. We begin with simple models using raw historical sales data and gradually increase complexity by automating data cleaning and incorporating more advanced methods that utilize factors such as price, promotions, stock-outs, and other external influences.While statistical forecasting methods are known for their robustness and explainability, incorporating exogenous variables such as price and promotions is often difficult. In an increasingly promotion-driven business environment, recent machine learning models—such as Random Forest, neural networks, and conformal prediction—might deliver a higher net benefit despite the additional data handling costs and reduced explainability.In assessing the effectiveness of various forecasting methods, we face the challenge of directly quantifying the value each forecast brings to the business. Due to the complexity of isolating a forecast’s impact on business performance, we adopt forecast accuracy as a proxy for forecast value. This approach allows us to evaluate and compare the methods based on their predictive precision, under the premise that more accurate forecasts are likely to result in better-informed business decisions and, consequently, greater operational benefits.In this paper, we aim to strike the right balance between enhancing forecast accuracy and managing the costs associated with additional resources like hardware, software, data, and human effort. Our research will explore the optimal combination of forecasting methods to achieve higher accuracy while ensuring efficient resource utilization. Furthermore, given the extensive range of products (SKUs) and their varying levels of importance, we explore strategies for effectively allocating human resources. By prioritizing efforts on key products and automating processes for less critical items, we aim to optimize resource utilization and enhance overall forecasting efficiency.">
 
 <title>My Minimal Quarto Book</title>
 <style>
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pythia’s Advice</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -137,19 +138,19 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pythia’s Advice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">First Chapter</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">First Chapter</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Second Chapter</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Second Chapter</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -168,10 +169,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link active" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
   <ul class="collapse">
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology"><span class="header-section-number">1.1</span> <strong>Methodology</strong></a></li>
   </ul></li>
+  <li><a href="#business-understanding" id="toc-business-understanding" class="nav-link" data-scroll-target="#business-understanding"><span class="header-section-number">2</span> Business Understanding</a></li>
+  <li><a href="#data-undestanding" id="toc-data-undestanding" class="nav-link" data-scroll-target="#data-undestanding"><span class="header-section-number">3</span> Data Undestanding</a></li>
+  <li><a href="#modeling" id="toc-modeling" class="nav-link" data-scroll-target="#modeling"><span class="header-section-number">4</span> Modeling</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation"><span class="header-section-number">5</span> Evaluation</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment"><span class="header-section-number">6</span> Deployment</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">7</span> Conclusion</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary">Glossary</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fpadt/gh_pages_test/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Fpadt/gh_pages_test/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -181,8 +190,25 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">My Minimal Quarto Book</h1>
-</div>
+<p class="subtitle lead">TRUST - is all you need!</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Time Series Forecasting</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Hierarchical Forecasting (HTS)</div>
+    <div class="quarto-category">Error-Trend-Season (ETS)</div>
+    <div class="quarto-category">Supply Chain Management</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    <p>Effective business planning relies heavily on consistent and accurate forecasts across various levels of aggregation, granularity, and time horizons. Generating multiple forecasts for different use cases not only incurs costs that should be justified by the benefits but also introduces the risk of inconsistencies between forecasts. Ideally, a single detailed forecast with a long horizon can be created and then aggregated to meet all business needs, maintaining consistency but potentially sacrificing forecast accuracy This raises the question of which approach delivers the highest net benefit.</p>
+    <p>To create an internal benchmark and understand the cost-benefit relationship without disrupting normal business operations, we built a separate forecasting lab environment in parallel to our production forecasting system, leveraging state-of-the-art open-source software available free of charge. We begin with simple models using raw historical sales data and gradually increase complexity by automating data cleaning and incorporating more advanced methods that utilize factors such as price, promotions, stock-outs, and other external influences.</p>
+    <p>While statistical forecasting methods are known for their robustness and explainability, incorporating exogenous variables such as price and promotions is often difficult. In an increasingly promotion-driven business environment, recent machine learning models—such as Random Forest, neural networks, and conformal prediction—might deliver a higher net benefit despite the additional data handling costs and reduced explainability.</p>
+    <p>In assessing the effectiveness of various forecasting methods, we face the challenge of directly quantifying the value each forecast brings to the business. Due to the complexity of isolating a forecast’s impact on business performance, we adopt forecast accuracy as a proxy for forecast value. This approach allows us to evaluate and compare the methods based on their predictive precision, under the premise that more accurate forecasts are likely to result in better-informed business decisions and, consequently, greater operational benefits.</p>
+    <p>In this paper, we aim to strike the right balance between enhancing forecast accuracy and managing the costs associated with additional resources like hardware, software, data, and human effort. Our research will explore the optimal combination of forecasting methods to achieve higher accuracy while ensuring efficient resource utilization. Furthermore, given the extensive range of products (SKUs) and their varying levels of importance, we explore strategies for effectively allocating human resources. By prioritizing efforts on key products and automating processes for less critical items, we aim to optimize resource utilization and enhance overall forecasting efficiency.</p>
+  </div>
+</div>
 
 <div class="quarto-title-meta-author">
   <div class="quarto-title-meta-heading">Authors</div>
@@ -228,21 +254,162 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a minimal Quarto book example for GitHub Pages.</p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This book demonstrates how to set up a simple Quarto book that can be published on GitHub Pages.</p>
-<p>In this book, you will find:</p>
-<ul>
-<li>Basic Quarto book structure</li>
-<li>How to configure your book</li>
-<li>How to publish to GitHub Pages</li>
-</ul>
-
-
+<div style="page-break-after: always;"></div>
+<p><span class="quarto-unresolved-ref">?def-RMSE</span></p>
+<p><span class="quarto-unresolved-ref">?def-OOD</span></p>
+<audio controls="">
+  <source src="audio/pythia_history.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<p><strong>From Prophecy to Prediction: The Myth Inspiring Pythia’s Advice</strong></p>
+<p>The <em>Pythia’s Advice</em> project is dedicated to the art of sales forecasting. Drawing inspiration from the ancient myth of the Oracle of Delphi, where the <em>Pythia</em>—the high priestess—delivered cryptic prophecies, we harness the power of Data Science—our modern-day Pythia—to foresee future trends. Just as the Pythia’s prophecies required careful interpretation, our statistical and machine learning techniques produce <em>Advice</em> that requires human expertise for effective application. By embodying this union of technology and human insight, we aptly named our project <em>Pythia’s Advice</em>. This synergy ensures well-informed, data-driven decision-making and enhances the operational efficiency of the supply chain.</p>
+<p>According to ancient myth, the Pythia inhaled vapors emanating from the remnants of the Python slain by Apollo—the Olympian god of the sun, music, and prophecy. These vapors induced a trance-like state that allowed her to channel his prophetic insights, revealing future events. Similarly, our project ‘inhales’ vast amounts of data—our ‘Python’s Vapors’—which, when processed with complex algorithms, enable us to decipher hidden patterns and unveil valuable foresight. However, these predictive insights must be carefully interpreted to avoid missteps—much like when King Croesus misread the Pythia’s prophecy that <em>‘a great empire will fall.’</em> He waged war and, in doing so, opened Pandora’s Box—leading to the downfall of his own <em>great empire</em>—the Kingdom of Lydia.</p>
+<p>Furthermore, <em>Pythia’s Advice</em> emphasizes the crucial bond between humans and nature. By focusing on the sales forecast of <em>food for biodiversity</em>—products that support ecological diversity—we aim to benefit human health and promote planetary well-being. This harmonious relationship mirrors the Pythia’s sacred connection with the divine, symbolizing a balance between technological capabilities and the natural world.</p>
+<p><br>
+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/pythia_logo.png" class="quarto-figure quarto-figure-center figure-img" style="width:6cm;height:6.8cm"></p>
+</figure>
+</div>
+<p><br>
+Our logo, featuring a tree integrated with the <em>Pythia</em> through conductive traces against an enlightening sunset that symbolizes guidance and inspiration, beautifully encapsulates this synergy. This imagery symbolizes the fusion of natural wisdom and technological innovation. It reminds us that while we rely on cutting-edge technology to predict the future, our roots remain deeply intertwined with nature.</p>
+<p>Through <em>Pythia’s Advice</em>, we honor the legacy of the Oracle of Delphi, blending ancient wisdom with modern technology to illuminate the path forward.</p>
+<div style="page-break-after: always;"></div>
+<!--  -->
+<section id="acknowledgments" class="level1 appendix unnumbered">
+<h1 class="appendix unnumbered">Acknowledgments</h1>
+<p>I am grateful for the insightful comments offered by <strong>?var:mentor</strong>. These have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.</p>
+<div style="page-break-after: always;"></div>
 </section>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>In an increasingly complex market environment, accurate demand forecasting is critical for ensuring the operational efficiency of supply chains, particularly in industries like wholesale, where products are perishable and sales are affected by seasonality and promotions. This research focuses on a wholesale company that buys, produces, and distributes biodiversity food to retailers, Out-Of-Home, discounters and E-commerce. To make informed decisions regarding production, buying, and negotiation with customers, accurate sales forecasts are required at different aggregation levels, depending on each use case.</p>
+<p>While the company employs robust but dated statistical methods, such as moving averages and exponential smoothing, these techniques struggle to handle promotional impacts, capture complex sales patterns, and provide prediction intervals. Currently, a combination of bottom-up and top-down forecasting approaches is used, largely determined by the judgment of individual demand planners. However, the lack of clear guidance on which approach to apply in different scenarios has resulted in inconsistent and subjective forecasting outcomes. Furthermore, various use cases have distinct aggregation and time horizon requirements, adding complexity to maintaining consistent and accurate forecasts across the system.</p>
+<p>The primary objective of this research is to determine the best way to generate a forecast, which methods to use and on what levels of granularity, enabling consistent, accurate forecasts that can be aggregated or dis-aggregated as required for different business needs. Specifically, the study aims to address the following key questions:</p>
+<ol type="1">
+<li>Which robust forecasting methods—statistical or data science techniques—should be used to meet the needs of each use case?</li>
+<li>Which levels of aggregation provides the most accurate forecast for different use cases, and what when is an additional level justified by increased forecast accuracy.</li>
+<li>What forecast accuracy improvements can be achieved through the integration of additional data, and what are the trade-offs or costs associated with these enhancements?</li>
+<li>How should human resources be allocated effectively, given the large number of products (SKUs) and varying levels of importance across these products?</li>
+</ol>
+<p>Ultimately, this research will provide an objective, data-driven strategy to improve forecast accuracy, reduce reliance on individual intuition, and ensure that forecasts are robust, consistent, and scalable across multiple aggregation levels, thereby enhancing overall decision-making efficiency.</p>
+<section id="methodology" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="methodology"><span class="header-section-number">1.1</span> <strong>Methodology</strong></h2>
+<p>This research follows the <strong>CRISP-ML methodology</strong>, <span class="citation" data-cites="costa_crisp-ml_2022">[@costa_crisp-ml_2022]</span> as the guiding framework.</p>
+<p>CRISP-ML is an acronym for “Cross-Industry Standard Process for Machine Learning.” It is a systematic framework for organizing and executing machine learning projects. The methodology includes six key steps:</p>
+<ol type="1">
+<li>understanding the problem</li>
+<li>preparing the data</li>
+<li>selecting and tuning models</li>
+<li>evaluating performance</li>
+<li>deploying the solution</li>
+<li>monitoring and maintaining the model.</li>
+</ol>
+<p>This thesis focuses on the first 4 steps, the results will be taken as advice to be implemented in the current way of working.</p>
+<!-- -   Promotions -->
+<!--     -   dip before/after promotion -->
+<!--     -   cannibalization, halo effect -->
+<!--     -   BOM, display -->
+<!-- -   Customer -->
+<!--     -   (de)-listings -->
+<!--     -   hierarchy -->
+<!-- -   Product Life Cycle Management -->
+<!--     -   NPI/NPD (cannibalization) -->
+<!--     -   end of Life -->
+<!-- -   Seasonality, Chinese new year -->
+<!-- Problem Statement -->
+<!-- -   which level/group -\> top-down, middle-out, bottom up -->
+<!--     -   HTS, -->
+<!-- -   which technique/method statistical, regression ... -->
+<!--     -   Statisticical: Exponential smoothing, Mov, navieve, ETS, ArimA, -->
+<!--     -   Data Science: regression (Boost) & conformal prediction -->
+<!-- -   Classification: which focus for the highest impact) (cleaning, promotions etc), e.g. -->
+<!--     -   ABC/XYZ -->
+<!--     -   other features 0-count, CV, promotion impact etc -->
+<!--     -   (forecast current accuracy based on features) -->
+</section>
+</section>
+<section id="business-understanding" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Business Understanding</h1>
+<p>where the business process is mapped and when the main indicators are identified, as well as when the business objectives are defined What is the business’s need?</p>
+<div id="fig-bu-why" class="figure quarto-float quarto-figure quarto-figure-left anchored" data-fig-align="left" data-fig-width="15cm" alt="Why is forecasting important? It drives the business">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bu-why-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/bu_why.png" class="img-fluid quarto-figure quarto-figure-left figure-img" data-fig-width="15cm" alt="Why is forecasting important? It drives the business">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bu-why-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Why forecasting?<br>
+The forecast drives the business!
+</figcaption>
+</figure>
+</div>
+<p>See Figure <a href="#fig-bu-why" class="quarto-xref">Figure&nbsp;<span>2.1</span></a> for the thumbnail overview.</p>
+</section>
+<section id="data-undestanding" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Data Undestanding</h1>
+</section>
+<section id="modeling" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Modeling</h1>
+</section>
+<section id="evaluation" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Evaluation</h1>
+<p><strong>?var:version</strong><br>
+<strong>?var:email_info</strong><br>
+TRUST - is all you need!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>warning</code>, <code>important</code>, <code>tip</code>, and <code>caution</code>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip with Title
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expand To Learn About Collapse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This is an example of a ‘folded’ caution callout that can be expanded by the user. You can use <code>collapse="true"</code> to collapse it by default or <code>collapse="false"</code> to make a collapsible callout that is expanded by default.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="deployment" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Deployment</h1>
+</section>
+<section id="conclusion" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Conclusion</h1>
+</section>
+<section id="glossary" class="level1 unnumbered">
+<h1 class="unnumbered">Glossary</h1>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -650,7 +817,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./chapter1.html" class="pagination-link" aria-label="First Chapter">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">First Chapter</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">First Chapter</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

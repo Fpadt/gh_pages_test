@@ -1,0 +1,13 @@
+# Preface {.unnumbered}
+
+This is a minimal Quarto book example for GitHub Pages.
+
+## Overview
+
+This book demonstrates how to set up a simple Quarto book that can be published on GitHub Pages.
+
+In this book, you will find:
+
+-   Basic Quarto book structure
+-   How to configure your book
+-   How to publish to GitHub Pages
