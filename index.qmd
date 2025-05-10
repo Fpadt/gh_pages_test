@@ -279,4 +279,6 @@ This is an example of a 'folded' caution callout that can be expanded by the use
 
 # Glossary {.unnumbered}
 
-
+::: html
+{{< include notebooks/09_definitions.qmd >}}
+:::

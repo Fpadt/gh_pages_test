@@ -91,6 +91,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -275,8 +304,8 @@ div.csl-indent {
 
 
 <div style="page-break-after: always;"></div>
-<p><span class="quarto-unresolved-ref">?def-RMSE</span></p>
-<p><span class="quarto-unresolved-ref">?def-OOD</span></p>
+<p><a href="#def-RMSE" class="quarto-xref">def&nbsp;<span>7.19</span></a></p>
+<p><a href="#def-OOD" class="quarto-xref">def&nbsp;<span>7.3</span></a></p>
 <audio controls="">
   <source src="audio/pythia_history.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
@@ -353,7 +382,7 @@ Our logo, featuring a tree integrated with the <em>Pythia</em> through conductiv
 <section id="business-understanding" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Business Understanding</h1>
 <p>where the business process is mapped and when the main indicators are identified, as well as when the business objectives are defined What is the business’s need?</p>
-<div id="fig-bu-why" class="figure quarto-float quarto-figure quarto-figure-left anchored" data-fig-width="15cm" alt="Why is forecasting important? It drives the business" data-fig-align="left">
+<div id="fig-bu-why" class="figure quarto-float quarto-figure quarto-figure-left anchored" alt="Why is forecasting important? It drives the business" data-fig-width="15cm" data-fig-align="left">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-bu-why-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/bu_why.png" class="img-fluid quarto-figure quarto-figure-left figure-img" data-fig-width="15cm" alt="Why is forecasting important? It drives the business">
@@ -428,6 +457,120 @@ Expand To Learn About Collapse
 </section>
 <section id="glossary" class="level1 unnumbered">
 <h1 class="unnumbered">Glossary</h1>
+<div class="html">
+<p>What does this acronym mean??</p>
+<section id="business" class="level1 unnumbered">
+<h1 class="unnumbered">Business</h1>
+<section id="terminology" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="terminology">Terminology</h2>
+<div id="def-BBD" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.1</strong></span> <strong>BBD:</strong></p>
+<p>Best Before Date</p>
+</div>
+<div id="def-GSL" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.2</strong></span> <strong>GSL:</strong></p>
+<p>Guaranteed Shelf Life</p>
+</div>
+<div id="def-OOD" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.3</strong></span> <strong>OOD:</strong></p>
+<p>Out of Date</p>
+</div>
+<div id="def-OOS" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.4</strong></span> <strong>OOS:</strong></p>
+<p>Out of Stock</p>
+</div>
+<div id="def-SKU" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.5</strong></span> <strong>SKU:</strong></p>
+<p>Stock Keeping Unit</p>
+</div>
+</section>
+<section id="entities" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="entities">Entities</h2>
+<div id="def-MSO" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.6</strong></span> <strong>MSO:</strong></p>
+<p>Marketing &amp; Sales Organization</p>
+</div>
+<div id="def-HFS" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.7</strong></span> <strong>HFS:</strong></p>
+<p>Health Food Store</p>
+</div>
+<div id="def-OOH" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.8</strong></span> <strong>OOH:</strong></p>
+<p>Out of Home</p>
+</div>
+</section>
+</section>
+<section id="data" class="level1 unnumbered">
+<h1 class="unnumbered">Data</h1>
+<div id="def-ABC" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.9</strong></span> <strong>ABC:</strong></p>
+<p>Classification Pareto</p>
+</div>
+</section>
+<section id="modeling-1" class="level1 unnumbered">
+<h1 class="unnumbered">Modeling</h1>
+<div id="def-ARIMA" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.10</strong></span> <strong>ARIMA:</strong></p>
+<p>AutoRegressive Integrated Moving Average</p>
+</div>
+<div id="def-BOX-JENKINS" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.11</strong></span> <strong>Box-Jenkins Method:</strong></p>
+<p>Box-Jenkins Method Method](https://en.wikipedia.org/wiki/Box%E2%80%93Jenkins_method)</p>
+</div>
+<div id="def-ETS" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.12</strong></span> <strong>ETS:</strong></p>
+<p>Error, Trend, Seasonal</p>
+</div>
+<div id="def-HTS" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.13</strong></span> <strong>HTS:</strong></p>
+<p>Hierarchical Time Series</p>
+</div>
+</section>
+<section id="evaluation-1" class="level1 unnumbered">
+<h1 class="unnumbered">Evaluation</h1>
+<div id="def-BIAS" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.14</strong></span> <strong>BIAS:</strong></p>
+<p>Bias Error</p>
+</div>
+<div id="def-FVA" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.15</strong></span> <strong>FVA:</strong></p>
+<p>Forecast Value Added</p>
+</div>
+<div id="def-MAE" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.16</strong></span> <strong>MAE:</strong></p>
+<p>Mean Absolute Error</p>
+<p>MAE = <span class="math inline">\(mean(|e_t|)\)</span></p>
+<p>A <a href="https://otexts.com/fpp3/accuracy.html#scale-dependent-errors">Scale-dependent error</a>, to compare forecast performances between data sets with the same unit.</p>
+</div>
+<div id="def-MAPE" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.17</strong></span> <strong>MAPE:</strong></p>
+<p>Mean Absolute Percentage Error</p>
+<p><span class="math inline">\(p_t = 100 \times \frac{e_t}{y_t}\)</span></p>
+<p>MAPE = <span class="math inline">\(mean(|p_t|)\)</span></p>
+<p>unit-free, to compare forecast performances between data sets.</p>
+</div>
+<div id="def-MASE" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.18</strong></span> <strong>MASE:</strong></p>
+<p>Mean Absolute Scaled Error**</p>
+</div>
+<div id="def-RMSE" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.19</strong></span> <strong>RMSE:</strong></p>
+<p>Root Mean Squared Error</p>
+<p>RMSE = <span class="math inline">\(\sqrt{mean(e^2_t)}\)</span></p>
+<p>A <a href="https://otexts.com/fpp3/accuracy.html#scale-dependent-errors">Scale-dependent error</a>, to compare forecast performances between data sets with the same unit.</p>
+</div>
+<div id="def-TSCV" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.20</strong></span> <strong>TSCV:</strong></p>
+<p>Time Series Cross Validation</p>
+</div>
+</section>
+<section id="deployment-1" class="level1 unnumbered">
+<h1 class="unnumbered">Deployment</h1>
+<div id="def-GAME" class="theorem definition">
+<p><span class="theorem-title"><strong>def 7.21</strong></span> Gamification</p>
+</div>
+</section>
+</div>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
