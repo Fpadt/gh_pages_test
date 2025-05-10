@@ -68,10 +68,10 @@ book:
   downloads: [pdf] 
   sharing: [twitter, facebook, linkedin]
   page-navigation: true # Explicit navigation controls
-  page-footer:
-    left: "© 2025 Floris Padt: Pythia's Advice"
-    # center: ""
-    right: "[EAISI](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai)"
+  # page-footer:
+  #   left: "© 2025 Floris Padt: Pythia's Advice"
+  #   # center: ""
+  #   right: "[EAISI](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai)"
   
   chapters:
     - index.qmd
