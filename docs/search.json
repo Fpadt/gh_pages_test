@@ -6,6 +6,7 @@
     "section": "",
     "text": "Acknowledgments\ndef 7.19\ndef 7.3\nFrom Prophecy to Prediction: The Myth Inspiring Pythia’s Advice\nThe Pythia’s Advice project is dedicated to the art of sales forecasting. Drawing inspiration from the ancient myth of the Oracle of Delphi, where the Pythia—the high priestess—delivered cryptic prophecies, we harness the power of Data Science—our modern-day Pythia—to foresee future trends. Just as the Pythia’s prophecies required careful interpretation, our statistical and machine learning techniques produce Advice that requires human expertise for effective application. By embodying this union of technology and human insight, we aptly named our project Pythia’s Advice. This synergy ensures well-informed, data-driven decision-making and enhances the operational efficiency of the supply chain.\nAccording to ancient myth, the Pythia inhaled vapors emanating from the remnants of the Python slain by Apollo—the Olympian god of the sun, music, and prophecy. These vapors induced a trance-like state that allowed her to channel his prophetic insights, revealing future events. Similarly, our project ‘inhales’ vast amounts of data—our ‘Python’s Vapors’—which, when processed with complex algorithms, enable us to decipher hidden patterns and unveil valuable foresight. However, these predictive insights must be carefully interpreted to avoid missteps—much like when King Croesus misread the Pythia’s prophecy that ‘a great empire will fall.’ He waged war and, in doing so, opened Pandora’s Box—leading to the downfall of his own great empire—the Kingdom of Lydia.\nFurthermore, Pythia’s Advice emphasizes the crucial bond between humans and nature. By focusing on the sales forecast of food for biodiversity—products that support ecological diversity—we aim to benefit human health and promote planetary well-being. This harmonious relationship mirrors the Pythia’s sacred connection with the divine, symbolizing a balance between technological capabilities and the natural world.\nOur logo, featuring a tree integrated with the Pythia through conductive traces against an enlightening sunset that symbolizes guidance and inspiration, beautifully encapsulates this synergy. This imagery symbolizes the fusion of natural wisdom and technological innovation. It reminds us that while we rely on cutting-edge technology to predict the future, our roots remain deeply intertwined with nature.\nThrough Pythia’s Advice, we honor the legacy of the Oracle of Delphi, blending ancient wisdom with modern technology to illuminate the path forward.\nI am grateful for the insightful comments offered by Ieke le Blanc. These have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.",
     "crumbs": [
+      "Foundations",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Pythia's Advice</span>"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "1.1 Methodology",
     "text": "1.1 Methodology\nThis research follows the CRISP-ML methodology, (Costa, 2022) as the guiding framework.\nCRISP-ML is an acronym for “Cross-Industry Standard Process for Machine Learning.” It is a systematic framework for organizing and executing machine learning projects. The methodology includes six key steps:\n\nunderstanding the problem\npreparing the data\nselecting and tuning models\nevaluating performance\ndeploying the solution\nmonitoring and maintaining the model.\n\nThis thesis focuses on the first 4 steps, the results will be taken as advice to be implemented in the current way of working.",
     "crumbs": [
+      "Foundations",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Pythia's Advice</span>"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "Terminology",
     "text": "Terminology\n\ndef 7.1 BBD:\nBest Before Date\n\n\ndef 7.2 GSL:\nGuaranteed Shelf Life\n\n\ndef 7.3 OOD:\nOut of Date\n\n\ndef 7.4 OOS:\nOut of Stock\n\n\ndef 7.5 SKU:\nStock Keeping Unit",
     "crumbs": [
+      "Foundations",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Pythia's Advice</span>"
     ]
   },
@@ -36,77 +39,162 @@
     "section": "Entities",
     "text": "Entities\n\ndef 7.6 MSO:\nMarketing & Sales Organization\n\n\ndef 7.7 HFS:\nHealth Food Store\n\n\ndef 7.8 OOH:\nOut of Home",
     "crumbs": [
+      "Foundations",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Pythia's Advice</span>"
     ]
   },
   {
-    "objectID": "chapter1.html",
-    "href": "chapter1.html",
-    "title": "2  First Chapter",
+    "objectID": "nb/02_data_understanding_rev.html",
+    "href": "nb/02_data_understanding_rev.html",
+    "title": "2  Data Understanding",
     "section": "",
-    "text": "2.1 A Section\nThis is the first chapter of our book.\nHere’s some content in a section.",
+    "text": "2.1 Data Collection Report",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>First Chapter</span>"
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
     ]
   },
   {
-    "objectID": "chapter1.html#a-section",
-    "href": "chapter1.html#a-section",
-    "title": "2  First Chapter",
+    "objectID": "nb/02_data_understanding_rev.html#data-description-report",
+    "href": "nb/02_data_understanding_rev.html#data-description-report",
+    "title": "2  Data Understanding",
+    "section": "2.2 Data Description Report",
+    "text": "2.2 Data Description Report",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
+    ]
+  },
+  {
+    "objectID": "nb/02_data_understanding_rev.html#data-exploration-report",
+    "href": "nb/02_data_understanding_rev.html#data-exploration-report",
+    "title": "2  Data Understanding",
+    "section": "2.3 Data Exploration Report",
+    "text": "2.3 Data Exploration Report",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
+    ]
+  },
+  {
+    "objectID": "nb/02_data_understanding_rev.html#data-quality-report",
+    "href": "nb/02_data_understanding_rev.html#data-quality-report",
+    "title": "2  Data Understanding",
+    "section": "2.4 Data Quality Report",
+    "text": "2.4 Data Quality Report",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
+    ]
+  },
+  {
+    "objectID": "nb/02_data_understanding_rev.html#identification-of-data-sources",
+    "href": "nb/02_data_understanding_rev.html#identification-of-data-sources",
+    "title": "2  Data Understanding",
+    "section": "2.5 Identification of Data Sources",
+    "text": "2.5 Identification of Data Sources",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
+    ]
+  },
+  {
+    "objectID": "nb/02_data_understanding_rev.html#data-quality-assessment",
+    "href": "nb/02_data_understanding_rev.html#data-quality-assessment",
+    "title": "2  Data Understanding",
+    "section": "2.6 Data Quality Assessment",
+    "text": "2.6 Data Quality Assessment\nassessing the - completeness: impute missing data - accuracy: = consistency:\n\n2.6.1 Data Description\nA descriptive exploratory analysis describes the data by its statistical properties and metadata.\noutliers?\n\n\n2.6.2 Data Verification",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
+    ]
+  },
+  {
+    "objectID": "nb/02_data_understanding_rev.html#sdmfrcac-fa",
+    "href": "nb/02_data_understanding_rev.html#sdmfrcac-fa",
+    "title": "2  Data Understanding",
+    "section": "3.1 SDMFRCAC FA",
+    "text": "3.1 SDMFRCAC FA",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Understanding</span>"
+    ]
+  },
+  {
+    "objectID": "nb/03_data_preparation_rev.html",
+    "href": "nb/03_data_preparation_rev.html",
+    "title": "3  Data Preparation",
     "section": "",
-    "text": "# A code example\nprint(\"Hello, Quarto!\")",
+    "text": "4 Data Pipelines\nSee Figure Figure 4.1 for the thumbnail overview.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>First Chapter</span>"
+      "Project Phases",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Preparation</span>"
     ]
   },
   {
-    "objectID": "chapter1.html#another-section",
-    "href": "chapter1.html#another-section",
-    "title": "2  First Chapter",
-    "section": "2.2 Another Section",
-    "text": "2.2 Another Section\nMore content here.",
+    "objectID": "nb/03_data_preparation_rev.html#work-flow-architecture",
+    "href": "nb/03_data_preparation_rev.html#work-flow-architecture",
+    "title": "3  Data Preparation",
+    "section": "5.1 Work Flow & Architecture :",
+    "text": "5.1 Work Flow & Architecture :\nNeed for a a robust, scalable and future-proof architecture with the flexibility to adapt as the data sets evolves, all while maintaining excellent performance and usability.\n\nNeed for fast startup and in-memory processing.\nScalable for future growth\nMinimal in complexity, leveraging familiar tools and lightweight components.\n\nVertically Scalable: The architecture leverages your node’s 24 GB of memory effectively, with room for growth by upgrading hardware (e.g., adding more RAM or CPU cores).\nLow Complexity Overhead:\nDuckDB introduces minimal complexity since it integrates seamlessly with both R and Python. SQL provides a familiar and powerful tool for managing data subsets, making the workflow easy to maintain. Prepared for Growth:\nThe combination of Feather and DuckDB ensures you can handle current and moderate future data sizes efficiently. For substantial growth, DuckDB can work with Parquet files or other scalable formats with minimal changes. Optimized for Performance:\nFeather ensures fast data access at startup. DuckDB allows efficient on-disk querying to reduce memory overhead, ensuring smooth performance even as datasets grow.\n\n5.1.1 \nThis workflow is ideal when working with datasets that are manageable in size and can be fully loaded into memory for analysis. Incorporating DuckDB adds the flexibility of SQL querying, which can be advantageous for preprocessing data before intensive computations. The use of Feather format ensures fast data loading, which is important for applications where user wait time during startup should be minimized.\nIf your dataset grows or your scalability needs change, you might need to adjust the workflow accordingly, possibly by switching to Parquet files and leveraging DuckDB’s capabilities to handle larger datasets more efficiently.\nArchitecture\nScalability:\n\nadjust your SQL queries to limit the data loaded into memory, ensuring your application remains performant.\nscale vertically with increased RAM and CPU cores to manage larger Feather files and more complex algorithms without architectural changes.\n\nPerformance:\n\nFeather enables fast reads for smaller datasets during startup.\nDuckDB efficiently handles larger datasets by querying on disk and loading only the necessary data into memory.\n\n\n\n5.1.2 Data Stageing\n\nD00: contains the BW OpenHub Export, CSV - same as AL11\n\n\n\n5.1.3 Data Ingestion:\nOccurs once a month, converting CSV to Parquet (or another format). header is added and stored in D01\n\n\n5.1.4 Data Access and Querying:\n\nData is imported into R data.table objects via DuckDB, which reads the stored files.\nQueries are often simple SQL SELECT statements on one table or basic INNER JOINs.\nThe same SQL queries are used to import data into Python using Polars via DuckDB.\n\n\n\n5.1.5 Data Manipulation:\n\nFurther data manipulation in R is done using data.table.\nIn Python, data manipulation is performed using Polars.\n\nEvaluation of Your Proposed Workflow\nGiven your familiarity with SQL and DuckDB, and your need for scalability, your proposed workflow is sound and aligns well with your goals.\n\n\n5.1.6 Advantages of Your Workflow\n\nScalability\n\nEfficient Data Storage: Parquet files are columnar, compressed, and optimized for performance, which is beneficial for large datasets.\nQuery Optimization: DuckDB is designed for efficient analytical queries, even on large datasets.\n\nFlexibility\n\nLanguage Agnostic: DuckDB can be used within R and Python, allowing seamless transition between languages.\nSQL Familiarity: Your proficiency in SQL means you can leverage DuckDB’s SQL interface effectively.\n\nPerformance\n\n\nFast Query Execution: DuckDB is optimized for OLAP workloads and can execute complex queries quickly.\nDirect Parquet Support: DuckDB can read Parquet files directly without the need to load the entire dataset into memory.\n\n\nIntegration with R and Python\n\n\nR Data.Tables: You can fetch query results from DuckDB into R data.tables, integrating with your existing R codebase.\nPython Polars: Similarly, you can read data into Polars DataFrames in Python, which is efficient for data manipulation.\n\n\nSimplified Data Pipeline\n\n\nUnified Data Source: Using DuckDB on top of Parquet files centralizes your data access, simplifying data management.\n\n\n\n5.1.7 Potential Disadvantages\n\nAdditional Complexity\n\n\nLibrary Dependencies: Requires installation and management of additional libraries (DuckDB, Parquet support in R and Python).\nLearning Curve for Integration: Even though you’re familiar with DuckDB, integrating it into R and Python workflows may require some setup and testing.\n\n\nOverhead of Data Conversion\n\nInitial Conversion: Migrating CSV files to Parquet adds an extra step in your data ingestion pipeline.\nData Updates: If your CSV data updates frequently, you’ll need to automate the conversion process.\n\nResource Usage\n\n\nDisk Space: Maintaining both CSV and Parquet files (if not deleting the original CSVs) may consume additional storage.\n\n\nRecommendations and Best Practices\nGiven your requirements and skills, your proposed workflow is suitable and offers several benefits in terms of scalability and flexibility. Here are some recommendations to optimize your workflow:\n### 1. Automate the CSV to Parquet Conversion\n\nUse Batch Processing:\nCreate scripts in R or Python to automate the conversion of CSV files to Parquet.\nLeverage DuckDB for Conversion:\n\nDuckDB can read CSV files and write Parquet files, allowing you to perform the conversion within DuckDB.\n\n\nCOPY (SELECT * FROM 'your_data.csv') TO 'your_data.parquet' (FORMAT PARQUET);\n\n\n5.1.8 2. Optimize DuckDB Usage\n\nIndexing and Partitioning:\n\nWhile Parquet files do not support traditional indexing, consider partitioning your data to improve query performance.\n\nSQL Query Optimization:\n\nUse DuckDB’s advanced SQL features to optimize queries (e.g., window functions, common table expressions).\n\n\n\n\n5.1.9 3. Efficient Data Retrieval into R and Python\n\nIn R:\n\nUse the duckdb package to execute SQL queries and fetch results into data.tables.\n\nlibrary(duckdb)\ncon &lt;- dbConnect(duckdb::duckdb())\n\n# Query data\nresult &lt;- dbGetQuery(con, \"SELECT * FROM 'your_data.parquet' WHERE conditions\")\n\n# Convert to data.table\nlibrary(data.table)\ndt_result &lt;- as.data.table(result)\nIn Python with Polars:\n\nUse DuckDB’s Python API or integrate with Polars for efficient data handling.\n\n\nimport duckdb\nimport polars as pl\n\n# Execute query and fetch result as Polars DataFrame\ndf = duckdb.query(\"SELECT * FROM 'your_data.parquet' WHERE conditions\").to_df()\npl_df = pl.from_pandas(df)\n\n\n5.1.10 4. Consider Data Volume and Hardware Resources\n\nMemory Management:\n\nDuckDB processes data efficiently, but ensure your hardware resources are adequate for your data size.\n\nDisk I/O:\n\nUsing Parquet files reduces disk I/O due to compression, but be mindful of the storage subsystem performance.\n\n\n\n\n5.1.11 5. Keep Libraries Updated\n\nStay Current:\n\nEnsure that you are using the latest versions of DuckDB, R packages, and Python libraries to benefit from performance improvements and bug fixes.\n\n\n\n\n5.1.12 6. Handle Updates and Data Versioning\n\nIncremental Updates:\n\nIf your data updates incrementally, design your pipeline to handle partial updates rather than reprocessing entire datasets.\n\nData Version Control:\n\nImplement versioning for your Parquet files to track changes over time.\n\n\n\n\n5.1.13 7. Monitor Performance and Adjust\n\nBenchmarking:\n\nRegularly benchmark query performance to identify bottlenecks.\n\nAdjust Strategy:\n\nBased on performance metrics, adjust partitioning schemes, query strategies, or hardware resources as needed.\n\n\n\nConclusion\nYour proposed workflow of migrating CSV files to Parquet, using DuckDB for querying, and integrating with R and Python is a robust solution that addresses your needs for scalability and flexibility. Given your familiarity with SQL and DuckDB, and the fact that you possess the necessary skills to manage the additional complexity, this approach is well-suited to your situation.\nBenefits of Your Workflow:\n\nScalable Data Processing:\nEfficient handling of large datasets through Parquet and DuckDB.\nFlexibility Across Languages:\n\nSeamless data access in both R and Python without data format conversion issues.\n\nPerformance Optimization:\n\nFaster query execution and data retrieval due to optimized storage and processing.\n\n\nKey Actions Moving Forward:\n\nSet Up Automated Data Pipelines:\n\n\nAutomate the conversion from CSV to Parquet to ensure consistency and save time.\n\n\nOptimize Queries:\n\n\nUtilize DuckDB’s full SQL capabilities to write efficient queries for your analysis.\n\n\nIntegrate Smoothly with R and Python:\n\nEstablish standard functions or scripts in both environments to interact with DuckDB, minimizing repetitive code.\n\nMonitor and Iterate:\n\nKeep an eye on performance metrics and be ready to adjust your approach as your dataset grows or changes.\n\n\n\nAdditional Considerations\n\nCommunity and Support:\n\nDuckDB is actively developed, and there is a growing community. Utilize resources like documentation and forums when needed.\n\nTesting and Validation:\n\nAs with any data pipeline, thoroughly test each component to ensure data integrity and correctness.\n\nSecurity and Access Control:\n\nIf working in a multi-user environment, consider how data access and permissions are managed.\n\n\n\nFinal Thoughts\nYour willingness to embrace additional complexity due to your skill set positions you well to benefit from this workflow. By combining the strengths of Parquet’s efficient data storage and DuckDB’s powerful query engine, you can achieve a scalable and flexible data analysis environment.\nShould you need further assistance or have more questions as you implement this workflow, feel free to reach out. I’m here to help ensure your data processing is as efficient and effective as possible.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>First Chapter</span>"
+      "Project Phases",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Preparation</span>"
     ]
   },
   {
-    "objectID": "chapter2.html",
-    "href": "chapter2.html",
-    "title": "3  Second Chapter",
+    "objectID": "nb/04_modelling_rev.html",
+    "href": "nb/04_modelling_rev.html",
+    "title": "4  Modelling",
     "section": "",
-    "text": "3.1 Including Images\nThis is the second chapter of our book.\nYou can include images:",
+    "text": "4.1 blackbox models\nSee Figure Figure 4.1 for the thumbnail overview.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Second Chapter</span>"
+      "Project Phases",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling</span>"
     ]
   },
   {
-    "objectID": "chapter2.html#including-images",
-    "href": "chapter2.html#including-images",
-    "title": "3  Second Chapter",
+    "objectID": "nb/04_modelling_rev.html#whitebox-models",
+    "href": "nb/04_modelling_rev.html#whitebox-models",
+    "title": "4  Modelling",
+    "section": "4.2 whitebox models",
+    "text": "4.2 whitebox models\n\n\n\n\n6.1. Literature Review / Similar Models - comprehensive overview of the state of the art in machine learning, including the latest algorithms, - insight into the performance of different algorithms and techniques on similar types of data. (avoid wasting time on models that are unlikely to perform well.)\n\n4.2.1 Model Selection\ndifferent models have different strengths and weaknesses and are suitable for different types of data and problems. achieve the best possible performance and maximize the impact\navoid overfitting a trade-off between the simplicity and flexibility (robustness)\nmodel performance - only article hierarchy - article and customer hierarchy\nCross-validation is a method for evaluating the performance of a model on a validation dataset. This involves dividing the data into k folds, training the model on k-1 folds, and evaluating the performance on the remaining fold. This process is repeated k times, with each fold serving as the validation set once, and the results are averaged to obtain a final performance score. This method provides a more reliable estimate of the model’s performance, as it uses all of the data for training and evaluation.\nalgorithm - handle teh specific characteristics of teh data - balance performance and interpretability - memory and processing power\n\nvalidity -&gt; fa & prediction intervals\nrobustness -&gt;\ntransparency -&gt;",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelling</span>"
+    ]
+  },
+  {
+    "objectID": "nb/05_evaluation_rev.html",
+    "href": "nb/05_evaluation_rev.html",
+    "title": "5  Evaluation",
     "section": "",
-    "text": "Example image",
+    "text": "5.1 Evaluate Results",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Second Chapter</span>"
+      "Project Phases",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evaluation</span>"
     ]
   },
   {
-    "objectID": "chapter2.html#including-tables",
-    "href": "chapter2.html#including-tables",
-    "title": "3  Second Chapter",
-    "section": "3.2 Including Tables",
-    "text": "3.2 Including Tables\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nA\nB\nC\n\n\nD\nE\nF",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Second Chapter</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "nb/05_evaluation_rev.html#evaluate-results",
+    "href": "nb/05_evaluation_rev.html#evaluate-results",
+    "title": "5  Evaluation",
     "section": "",
-    "text": "Here you can include your references or bibliography.",
+    "text": "explainability\n\n\n5.1.1 Assessment of Data Mining Results w.r.t. Business Success Criteria\n\nhow well does the model work on new data?\nFor whom does the model not work well?\n\n\n\n5.1.2 Approved Models\n\n\n5.1.3 Review Process\n\n\n5.1.4 Review of Process\n\n\n5.1.5 Determine Next Steps\n\n\n5.1.6 List of Possible Actions\n\n\n5.1.7 Decision",
     "crumbs": [
-      "References"
+      "Project Phases",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "nb/06_deployment_rev.html",
+    "href": "nb/06_deployment_rev.html",
+    "title": "6  Deployment",
+    "section": "",
+    "text": "scalability - distributed techniques - maintenance & updating the model - monitoring the model - debugging the model\n\n7 model management\n\nmodel versioning GIT\ncontinuous integration/continuous deployment (CI/CD) pipelines.\n\n\n\nAppendix",
+    "crumbs": [
+      "Project Phases",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Deployment</span>"
     ]
   }
 ]

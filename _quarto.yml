@@ -74,10 +74,24 @@ book:
     right: "[EAISI](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai)"
   
   chapters:
-    - index.qmd
-    - chapter1.qmd
-    - chapter2.qmd
-    - references.qmd
+    - part: "Foundations"
+      chapters:
+        - index.qmd
+        # - notebooks/intro-crisp-dm.qmd
+    - part: "Project Phases"
+      chapters:
+        # - nb/01_business_understanding_rev.qmd
+        - nb/02_data_understanding_rev.qmd
+        - nb/03_data_preparation_rev.qmd
+        - nb/04_modelling_rev.qmd
+        - nb/05_evaluation_rev.qmd
+        - nb/06_deployment_rev.qmd
+        
+  # chapters:
+  #   - index.qmd
+  #   - chapter1.qmd
+  #   - chapter2.qmd
+  #   - references.qmd
 
 format:
   html:
