@@ -106,7 +106,7 @@ key-points:
   - rules of thumb have been developed indicating what to use when
 thanks: 'Mentor: {{<var mentor >}} - EAISI Academy, MASTERING DATA & AI, Technical University Eindhoven'
 bibliography:      EAISI-PYTHIA.bib
-# csl:               data-science-journal.csl
+csl:               data-science-journal.csl
 # cite-method:       biblatex
 # biblio-style:      nature
 citation:
