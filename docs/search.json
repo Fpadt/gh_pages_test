@@ -14,7 +14,7 @@
     "href": "index.html#methodology",
     "title": "My Minimal Quarto Book",
     "section": "1.1 Methodology",
-    "text": "1.1 Methodology\nThis research follows the CRISP-ML methodology, [@costa_crisp-ml_2022] as the guiding framework.\nCRISP-ML is an acronym for “Cross-Industry Standard Process for Machine Learning.” It is a systematic framework for organizing and executing machine learning projects. The methodology includes six key steps:\n\nunderstanding the problem\npreparing the data\nselecting and tuning models\nevaluating performance\ndeploying the solution\nmonitoring and maintaining the model.\n\nThis thesis focuses on the first 4 steps, the results will be taken as advice to be implemented in the current way of working.",
+    "text": "1.1 Methodology\nThis research follows the CRISP-ML methodology, (Costa 2022) as the guiding framework.\nCRISP-ML is an acronym for “Cross-Industry Standard Process for Machine Learning.” It is a systematic framework for organizing and executing machine learning projects. The methodology includes six key steps:\n\nunderstanding the problem\npreparing the data\nselecting and tuning models\nevaluating performance\ndeploying the solution\nmonitoring and maintaining the model.\n\nThis thesis focuses on the first 4 steps, the results will be taken as advice to be implemented in the current way of working.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Pythia's Advice</span>"
     ]

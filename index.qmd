@@ -105,7 +105,7 @@ key-points:
   - A comparison has been made between the differnt forecasts engines in terms of foerecast accuracy measures and has been visualized
   - rules of thumb have been developed indicating what to use when
 thanks: 'Mentor: {{<var mentor >}} - EAISI Academy, MASTERING DATA & AI, Technical University Eindhoven'
-# bibliography:      EAISI-PYTHIA.bib
+bibliography:      EAISI-PYTHIA.bib
 # csl:               data-science-journal.csl
 # cite-method:       biblatex
 # biblio-style:      nature

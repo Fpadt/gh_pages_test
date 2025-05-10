@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -296,7 +316,7 @@ Our logo, featuring a tree integrated with the <em>Pythia</em> through conductiv
 <p>Ultimately, this research will provide an objective, data-driven strategy to improve forecast accuracy, reduce reliance on individual intuition, and ensure that forecasts are robust, consistent, and scalable across multiple aggregation levels, thereby enhancing overall decision-making efficiency.</p>
 <section id="methodology" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="methodology"><span class="header-section-number">1.1</span> <strong>Methodology</strong></h2>
-<p>This research follows the <strong>CRISP-ML methodology</strong>, <span class="citation" data-cites="costa_crisp-ml_2022">[@costa_crisp-ml_2022]</span> as the guiding framework.</p>
+<p>This research follows the <strong>CRISP-ML methodology</strong>, <span class="citation" data-cites="costa_crisp-ml_2022">(<a href="#ref-costa_crisp-ml_2022" role="doc-biblioref">Costa 2022</a>)</span> as the guiding framework.</p>
 <p>CRISP-ML is an acronym for “Cross-Industry Standard Process for Machine Learning.” It is a systematic framework for organizing and executing machine learning projects. The methodology includes six key steps:</p>
 <ol type="1">
 <li>understanding the problem</li>
@@ -333,7 +353,7 @@ Our logo, featuring a tree integrated with the <em>Pythia</em> through conductiv
 <section id="business-understanding" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Business Understanding</h1>
 <p>where the business process is mapped and when the main indicators are identified, as well as when the business objectives are defined What is the business’s need?</p>
-<div id="fig-bu-why" class="figure quarto-float quarto-figure quarto-figure-left anchored" data-fig-align="left" data-fig-width="15cm" alt="Why is forecasting important? It drives the business">
+<div id="fig-bu-why" class="figure quarto-float quarto-figure quarto-figure-left anchored" alt="Why is forecasting important? It drives the business" data-fig-width="15cm" data-fig-align="left">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-bu-why-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/bu_why.png" class="img-fluid quarto-figure quarto-figure-left figure-img" data-fig-width="15cm" alt="Why is forecasting important? It drives the business">
@@ -410,6 +430,98 @@ Expand To Learn About Collapse
 <h1 class="unnumbered">Glossary</h1>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-barrett_datatable_2024" class="csl-entry" role="listitem">
+Barrett, Tyson, Matt Dowle, Arun Srinivasan, Jan Gorecki, Michael Chirico, Toby Hocking, Benjamin Schwendinger, et al. 2024. <span>“Data.table: <span>Extension</span> of ’Data.frame’.”</span> <a href="https://cran.r-project.org/web/packages/data.table/index.html">https://cran.r-project.org/web/packages/data.table/index.html</a>.
+</div>
+<div id="ref-blokdyk_scor_2019" class="csl-entry" role="listitem">
+BLOKDYK, GERARDUS. 2019. <em><span>SCOR</span> <span>MODEL</span> <span>A</span> <span>COMPLETE</span> <span>GUIDE</span> - 2020 <span>EDITION</span></em>. [S.l.]: 5STARCOOKS.
+</div>
+<div id="ref-r_core_team_r_2024" class="csl-entry" role="listitem">
+Core Team}, {R. 2024. <span>“R: <span>A</span> <span>Language</span> and <span>Environment</span> for <span>Statistical</span> <span>Computing</span>.”</span> Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+<div id="ref-costa_crisp-ml_2022" class="csl-entry" role="listitem">
+Costa, R. 2022. <em>The <span>CRISP</span>-<span>ML</span> <span>Methodology</span>: <span>A</span> <span>Step</span>-by-<span>Step</span> <span>Approach</span> to <span>Real</span>-<span>World</span> <span>Machine</span> <span>Learning</span> <span>Projects</span></em>. Independently published.
+</div>
+<div id="ref-debruine_glossary_2023" class="csl-entry" role="listitem">
+DeBruine, Lisa. 2023. <span>“Glossary: <span>Glossaries</span> for <span>Markdown</span> and <span>Quarto</span> <span>Documents</span>.”</span> <a href="https://cran.r-project.org/web/packages/glossary/">https://cran.r-project.org/web/packages/glossary/</a>.
+</div>
+<div id="ref-guja_generative_2025" class="csl-entry" role="listitem">
+Guja, Artur, and Marlena Siwiak. 2025. <em>Generative <span>AI</span> for <span>Data</span> <span>Analytics</span>.</em> Manning Publications Co. LLC 2025.
+</div>
+<div id="ref-hartshorn_machine_2017" class="csl-entry" role="listitem">
+Hartshorn, Scott. 2017. <em>Machine <span>Learning</span> <span>With</span> <span>Boosting</span>: <span>A</span> <span>Beginner</span>’s <span>Guide</span></em>.
+</div>
+<div id="ref-hyndmanaut2024" class="csl-entry" role="listitem">
+Hyndman [aut, Rob, cre, cph, George Athanasopoulos, Christoph Bergmeir, Gabriel Caceres, Leanne Chhay, et al. 2024. <em>Forecast: Forecasting Functions for Time Series and Linear Models</em>. <a href="https://cran.r-project.org/web/packages/forecast/index.html">https://cran.r-project.org/web/packages/forecast/index.html</a>.
+</div>
+<div id="ref-hyndman__aut_fpp3_2024" class="csl-entry" role="listitem">
+Hyndman [aut, Rob, cre, cph, George Athanasopoulos, Mitchell O’Hara-Wild, Nuwani Palihawadana, Shanika Wickramasuriya, and RStudio. 2024. <span>“Fpp3: <span>Data</span> for "<span>Forecasting</span>: <span>Principles</span> and <span>Practice</span>" (3rd <span>Edition</span>).”</span> <a href="https://cran.r-project.org/web/packages/fpp3/index.html">https://cran.r-project.org/web/packages/fpp3/index.html</a>.
+</div>
+<div id="ref-hyndman_forecasting_2021" class="csl-entry" role="listitem">
+Hyndman, R. J., and G Athanasopoulos. 2021. <em>Forecasting: <span>Principles</span> and <span>Practice</span> (3rd Ed)</em>. <a href="https://otexts.com/fpp3/">https://otexts.com/fpp3/</a>.
+</div>
+<div id="ref-kunapuli_ensemble_2023" class="csl-entry" role="listitem">
+Kunapuli, Gautam. 2023. <em>Ensemble Methods for Machine Learning</em>. Shelter Island, NY: Manning.
+</div>
+<div id="ref-manokhin_practical_2023" class="csl-entry" role="listitem">
+Manokhin, Valery. 2023. <em>Practical Guide to Applied Conformal Prediction in <span>Python</span>: Learn and Apply the Best Uncertainty Frameworks to Your Industry Applications</em>. Birmingham Mumbai: <span>&lt;</span>packt<span>&gt;</span>.
+</div>
+<div id="ref-matthes_python_2019" class="csl-entry" role="listitem">
+Matthes, Eric. 2019b. <em>Python Crash Course: A Hands-on, Project-Based Introduction to Programming</em>. 2nd edition. San Francisco, CA: No Starch Press.
+</div>
+<div id="ref-matthes2019" class="csl-entry" role="listitem">
+———. 2019a. <em>Python Crash Course: A Hands-on, Project-Based Introduction to Programming</em>. 2nd edition. San Francisco, CA: No Starch Press.
+</div>
+<div id="ref-molnar_introduction_2023" class="csl-entry" role="listitem">
+Molnar, Christoph. 2023. <em>Introduction to Conformal Prediction with <span>Python</span>: A Short Guide for Quantifying Uncertainty of Machine Learning Models</em>. First edition. München, Germany: Chistoph Molnar c/o MUCBOOK, Heidi Seibold. <a href="https://christophmolnar.com/books/conformal-prediction/">https://christophmolnar.com/books/conformal-prediction/</a>.
+</div>
+<div id="ref-nixtla/h" class="csl-entry" role="listitem">
+<span>“Nixtla/Hierarchicalforecast: Probabilistic Hierarchical Forecasting 👑 with Statistical and Econometric Methods.”</span> n.d. <a href="https://github.com/Nixtla/hierarchicalforecast">https://github.com/Nixtla/hierarchicalforecast</a>.
+</div>
+<div id="ref-nixtla/m2024" class="csl-entry" role="listitem">
+<em>Nixtla/Mlforecast</em>. 2024. Nixtla. <a href="https://github.com/Nixtla/mlforecast">https://github.com/Nixtla/mlforecast</a>.
+</div>
+<div id="ref-nixtla/s2024" class="csl-entry" role="listitem">
+<em>Nixtla/Statsforecast</em>. 2024. Nixtla. <a href="https://github.com/Nixtla/statsforecast">https://github.com/Nixtla/statsforecast</a>.
+</div>
+<div id="ref-nixtla/t2024" class="csl-entry" role="listitem">
+<em>Nixtla/Tsfeatures</em>. 2024. Nixtla. <a href="https://github.com/Nixtla/tsfeatures">https://github.com/Nixtla/tsfeatures</a>.
+</div>
+<div id="ref-ohara-wild2024a" class="csl-entry" role="listitem">
+O’Hara-Wild, Mitchell, Rob Hyndman, Earo Wang, Di Cook, Thiyanga Talagala (Correlation features), and Leanne Chhay (Guerrero’s method). 2024. <em>Feasts: Feature Extraction and Statistics for Time Series</em>. <a href="https://cran.r-project.org/web/packages/feasts/index.html">https://cran.r-project.org/web/packages/feasts/index.html</a>.
+</div>
+<div id="ref-ohara-wild2024" class="csl-entry" role="listitem">
+O’Hara-Wild, Mitchell, Rob Hyndman, Earo Wang, Gabriel Caceres (NNETAR implementation), Christoph Bergmeir, Tim-Gunnar Hensel, and Timothy Hyndman. 2024. <em>Fable: Forecasting Models for Tidy Time Series</em>. <a href="https://cran.r-project.org/web/packages/fable/index.html">https://cran.r-project.org/web/packages/fable/index.html</a>.
+</div>
+<div id="ref-osullivan_introduction_2023" class="csl-entry" role="listitem">
+O’Sullivan, Conor. 2023. <span>“Introduction to <span>SHAP</span> with <span>Python</span>.”</span> <em>Introduction to SHAP with Python</em>. <a href="https://towardsdatascience.com/introduction-to-shap-with-python-d27edc23c454">https://towardsdatascience.com/introduction-to-shap-with-python-d27edc23c454</a>.
+</div>
+<div id="ref-osullivan_shap_2024" class="csl-entry" role="listitem">
+———. 2024. <span>“<span>SHAP</span> with <span>Python</span>.”</span> Course. <em>SHAP with Python</em>. <a href="https://adataodyssey.com/course/">https://adataodyssey.com/course/</a>.
+</div>
+<div id="ref-porter_learn_2024" class="csl-entry" role="listitem">
+Porter, Leo, and Daniel Zingaro. 2024. <em>Learn <span>AI</span>-Assisted <span>Python</span> Programming: With <span>GitHub</span> <span>Copilot</span> and <span>ChatGPT</span></em>. Shelter Island, NY: Manning.
+</div>
+<div id="ref-silver_inventory_2021" class="csl-entry" role="listitem">
+Silver, Edward A., David F. Pyke, and Douglas J. Thomas. 2021. <em>Inventory and Production Management in Supply Chains</em>. Fourth edition, first issued in paperback. Boca Raton, FL London New York, NY: CRC Press, Taylor &amp; Francis Group.
+</div>
+<div id="ref-vandeput_inventory_2020" class="csl-entry" role="listitem">
+Vandeput, Nicolas. 2020. <em>Inventory Optimization: Models and Simulations</em>. Business &amp; Economics. Berlin ; Boston: De Gruyter.
+</div>
+<div id="ref-vandeput_data_2021" class="csl-entry" role="listitem">
+———. 2021. <em>Data Science for Supply Chain Forecasting</em>. Second edition. Berlin ; Boston: De Gruyter.
+</div>
+<div id="ref-vandeput_demand_2023" class="csl-entry" role="listitem">
+———. 2023. <em>Demand Forecasting Best Practices</em>. Shelter Island, NY: Manning Publications Co.
+</div>
+<div id="ref-wickham" class="csl-entry" role="listitem">
+Wickham, Hadley. n.d. <span>“R for Data Science (2e).”</span> <a href="https://r4ds.hadley.nz/">https://r4ds.hadley.nz/</a>.
+</div>
+<div id="ref-wickham_ggplot2_2024" class="csl-entry" role="listitem">
+Wickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, et al. 2024. <span>“Ggplot2: <span>Create</span> <span>Elegant</span> <span>Data</span> <span>Visualisations</span> <span>Using</span> the <span>Grammar</span> of <span>Graphics</span>.”</span> <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">https://cran.r-project.org/web/packages/ggplot2/index.html</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
