@@ -72,7 +72,7 @@ book:
     left: "© 2025 Floris Padt: Pythia's Advice"
     # center: ""
     right: "[EAISI](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai)"
-  
+
   chapters:
     - part: "Foundations"
       chapters:
@@ -80,7 +80,7 @@ book:
         # - notebooks/intro-crisp-dm.qmd
     - part: "Project Phases"
       chapters:
-        # - nb/01_business_understanding_rev.qmd
+        - nb/01_business_understanding_rev.qmd
         - nb/02_data_understanding_rev.qmd
         - nb/03_data_preparation_rev.qmd
         - nb/04_modelling_rev.qmd
@@ -99,8 +99,8 @@ book:
         - nb/16_flow_down_rev.qmd
         - nb/17_crisp-dm_rev.qmd
         - nb/18_references_rev.qmd
-        - nb/19_resources_rev.qmd          
-        
+        - nb/19_resources_rev.qmd
+
 resources:
   - notebooks/01_business_understanding.qmd  
   - notebooks/02_data_understanding.qmd
@@ -109,7 +109,7 @@ resources:
   - video/whitebox.mp4
   - video/blackbox.mp4
   - pptx/PAF_s03.pptx
-  
+
 format:
   html:
     title-block-banner: true
