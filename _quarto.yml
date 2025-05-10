@@ -47,9 +47,38 @@ authors:
         department:   EAISI Academy
         group:        Professional education
         url:          https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai 
-  
+
+crossref:
+  def-prefix: def
+  def-title:  def
+    
+execute:
+  freeze:  false
+  echo:    false
+  output:  true
+  include: false
+  warning: false
+
+editor: source
+
 book:
   title: "My Minimal Quarto Book"
+  repo-url: https://github.com/Fpadt/gh_pages_test
+  repo-actions: [source, issue]
+  downloads: [pdf] 
+  sharing: [twitter, facebook, linkedin]
+  page-navigation: true # Explicit navigation controls
+  sidebar:
+    style: docked
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/fpadt/EAISI-Paper
+  page-footer:
+    left: "© 2025 Floris Padt"
+    center: "Powered by [Quarto](https://quarto.org/)"
+    right: "EAISI - Technical University Eindhoven"
+  
   chapters:
     - index.qmd
     - chapter1.qmd
