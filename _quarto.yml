@@ -69,9 +69,9 @@ book:
   sharing: [twitter, facebook, linkedin]
   page-navigation: true # Explicit navigation controls
   page-footer:
-    left: "Powered by [Quarto](https://quarto.org/)"
-    center: "© 2025 Floris Padt"
-    right: "[EAISI - Technical University Eindhoven](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai)"
+    left: "© 2025 Floris Padt: Pythia's Adive"
+    # center: ""
+    right: "[EAISI](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute/ai-education/professional-education/programs-voor-professionals/mastering-data-ai-mdai)"
   
   chapters:
     - index.qmd
