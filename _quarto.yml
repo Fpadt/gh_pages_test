@@ -95,4 +95,37 @@ book:
 
 format:
   html:
-    theme: cosmo
+    # base-href: "/EAISI-Paper/"
+    # include-in-header:
+    #   text: |
+    #     <base href="/EAISI-Paper/">
+    # include-before-body:
+    #   text: |
+    #     <script>
+    #       // Ensure base tag exists
+    #       if (!document.querySelector('base')) {
+    #         var base = document.createElement('base');
+    #         base.href = '/EAISI-Paper/';
+    #         document.head.prepend(base);
+    #       }
+    #     </script>
+    # Banner configuration
+    title-block-banner: true
+    title-block-style: default
+    # Custom banner color
+    title-block-banner-color: "#FFFFFF"
+    background-color: "#004D40"
+    toc:                true
+    code-fold:          true  
+    lightbox:           true
+    comments:
+      hypothesis:       false
+    number-sections:    true
+    colorlinks:         true
+    highlight-style:    github
+    theme:
+      light:            [flatly]
+      dark:             [darkly]
+    respect-user-color-scheme: false    
+    fontsize:           "10"
+    crossrefs-hover:    true 
